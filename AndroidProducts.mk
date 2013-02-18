@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_907.mk
+    $(LOCAL_DIR)/full_matrix1.mk

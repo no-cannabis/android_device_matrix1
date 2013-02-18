@@ -14,17 +14,17 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/softwinner/907/full_907.mk)
+$(call inherit-product, device/softwinner/matrix1/full_matrix1.mk)
 
 # Inherit some common CM9 stuff.
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
-$(call inherit-product, device/softwinner/907/907-blobs.mk)
+$(call inherit-product, device/softwinner/matrix1/matrix1-blobs.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_907
+PRODUCT_NAME := cm_matrix1
 PRODUCT_BRAND := Google
-PRODUCT_DEVICE := 907
+PRODUCT_DEVICE := matrix1
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
-PRODUCT_RELEASE_NAME := 907
+PRODUCT_RELEASE_NAME := matrix1
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi TARGET_DEVICE=grouper BUILD_FINGERPRINT="google/nakasi/grouper:4.1.1/JRO03D/402395:user/release-keys" PRIVATE_BUILD_DESC="nakasi-user 4.1.1 JRO03D 402395 release-keys"

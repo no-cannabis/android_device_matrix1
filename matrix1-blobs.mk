@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	device/softwinner/matrix1/prebuilt/usr/idc/ft5x_ts.idc:system/usr/idc/ft5x_ts.idc \
 	device/softwinner/matrix1/prebuilt/usr/idc/Goodix-TS-board-3.idc:system/usr/idc/Goodix-TS-board-3.idc \
+	device/softwinner/matrix1/prebuilt/usr/idc/gt80x.idc:system/usr/idc/gt80x.idc \
 	device/softwinner/matrix1/prebuilt/usr/keylayout/axp20-supplyer.kl:system/usr/keylayout/axp20-supplyer.kl \
 	device/softwinner/matrix1/prebuilt/usr/keylayout/sun4i-keyboard.kl:system/usr/keylayout/sun4i-keyboard.kl \
 	device/softwinner/matrix1/prebuilt/usr/icu/icudt46l.dat:system/usr/icu/icudt46l.dat
